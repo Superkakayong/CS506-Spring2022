@@ -1,3 +1,12 @@
 def draw_museum():
-    print("museum not found")
+    print("============")
+
+    for i in range (10):
+        if i == 5:
+            print("|  Museum  |")
+        else :
+            print("|          |")
+
+    print("============")
+    print("\n")
     return
